@@ -62,21 +62,18 @@
 
         </style>
         
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdoI-FW2gZE8DsqiKr4zlWYAJNbSKE-UA&callback=initMap&libraries=&v=weekly"
-      defer
-    ></script>
-        
+   <script src="OpenLayers.js"></script>
     <script>
-      let map;
+      function init() {
+        map = new OpenLayers.Map("basicMap");
+        var mapnik         = new OpenLayers.Layer.OSM();
+        var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
+        var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+        var position       = new OpenLayers.LonLat(13.41,52.52).transform( fromProjection, toProjection);
+        var zoom           = 15; 
 
-      function initMap() {
-        map = new google.maps.Map(document.getElementById("map"), {
-          center: { lat: 40.945680, lng: 29.118935 },
-          zoom: 8,
-        });
+        map.addLayer(mapnik);
+        map.setCenter(position, zoom );
       }
     </script>
-
     </head>
