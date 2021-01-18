@@ -1253,14 +1253,13 @@ ul.about {
 }
 
 #resume .col-md-6 ul li li {
-    list-style-type: space-counter;
+    list-style-type: disc;
     list-style-position: inside;
     margin-top: 0;
     margin: 0;
     padding: 0;
     line-height: normal;
-    text-indent: -20px; /* key property */
-    /*margin-left: 20px; key property */
+    text-indent: -19px;
 }
 
 #resume .attributes li.first{
