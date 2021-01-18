@@ -1253,14 +1253,12 @@ ul.about {
 }
 
 #resume .col-md-6 ul li li {
-    list-style-type: square;
     list-style-position: inside;
     margin-top: 0;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     line-height: normal;
     text-indent: -1em;
-    margin-left: 0em;
 }
 
 #resume .attributes li.first{
