@@ -1254,7 +1254,8 @@ ul.about {
 
 #resume .col-md-6 ul li li {
     list-style-type: square;
-    margin-top: 20px;
+    list-style-position: inside;
+    margin-top: 0x;
 }
 
 #resume .attributes li.first{
