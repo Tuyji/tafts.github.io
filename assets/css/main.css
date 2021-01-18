@@ -1260,6 +1260,7 @@ ul.about {
     padding: 0;
     line-height: normal;
     text-indent: -19px;
+    margin-left: 20px;
 }
 
 #resume .attributes li.first{
