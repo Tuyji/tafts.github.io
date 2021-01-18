@@ -1252,6 +1252,11 @@ ul.about {
     padding-bottom: 10px;
 }
 
+#resume .col-md-6 ul li li {
+    list-style-type: square;
+    margin-top: 20px;
+}
+
 #resume .attributes li.first{
     margin-top: 0 !important;
 }
