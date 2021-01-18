@@ -1259,6 +1259,7 @@ ul.about {
     margin: 0;
     padding: 0;
     line-height: normal;
+    text-align: justify;
 }
 
 #resume .attributes li.first{
