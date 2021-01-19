@@ -420,7 +420,7 @@ h2.resp-accordion:hover {
 ------------------- Google Maps --------------------
 ---------------------------------------------------*/
 
-#basicMap {
+#map {
     display: block;
     width: 100% !important;
     height: 300px !important;
@@ -431,7 +431,7 @@ h2.resp-accordion:hover {
     border-bottom: 1px solid #CCC;
     border-top: 1px solid #CCC;
 }
-#basicMap.large {
+#map.large {
     height: 500px;
 }
 .overlay {
@@ -556,7 +556,7 @@ h2.resp-accordion:hover {
 #icon-status {
     cursor: pointer;
 }
-#basicMaps-status {
+#maps-status {
     text-align: center;
     border: 3px solid #2f9b68;
     color: #2f9b68;
@@ -566,7 +566,7 @@ h2.resp-accordion:hover {
     border-radius: 10px;
     margin-bottom: 10px;
 }
-#basicMaps-status:hover {
+#maps-status:hover {
     color: #fff;
     background: #2f9b68;
 }
